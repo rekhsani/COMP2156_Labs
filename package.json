@@ -11,11 +11,11 @@
     "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
   },
-  
   "keywords": [],
   "author": "Roman Ekhsani",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -35,5 +35,4 @@
       "last 1 safari version"
     ]
   }
-
 }
