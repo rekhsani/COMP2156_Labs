@@ -6,15 +6,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rekhsani/COMP2156_Labs"
-  },
+  
   "keywords": [],
   "author": "Roman Ekhsani",
   "license": "ISC",
@@ -37,8 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
+
 }
