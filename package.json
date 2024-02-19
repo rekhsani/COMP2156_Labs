@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
@@ -19,12 +19,11 @@
   "author": "Roman Ekhsani",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
     "travis": "^0.1.1",
+    "web-vitals": "^2.1.4",
     "yarn": "^1.13.0"
   },
   "browserslist": {
@@ -38,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
